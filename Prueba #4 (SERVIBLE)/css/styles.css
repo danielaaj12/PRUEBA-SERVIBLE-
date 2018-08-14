@@ -1,0 +1,60 @@
+/*
+* Estilos de Nuestro juego de Memoria
+*/
+
+/****************
+    Generales
+*****************/
+
+body{
+    margin: 0;
+    font-family: 'Acme', Arial;
+    background-image: url('../img/imgFondo.jpg');
+background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-shadow: 3px 1px rgba(139, 147, 148, 0.568);
+}
+
+/****************
+    Container
+*****************/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.memoryTable{
+    width: 1200px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.memoryTable div{
+    cursor: pointer;
+    width: 86px;
+    height: 120px;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    background-image: url('https://raw.githubusercontent.com/YethPenado/memory-g-pruebas/master/img/card-reverse.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 10px black;
+}
